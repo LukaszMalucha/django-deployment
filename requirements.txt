@@ -1,0 +1,5 @@
+awscli==1.18.110
+awsebcli==3.18.2
+boto3==1.9.115
+Django==2.2
+gunicorn==19.9.0

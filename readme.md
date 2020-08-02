@@ -1,5 +1,30 @@
 ## DJANGO DEPLOYMENT
 
+### AWS
+
+##### Python
+
+pip install awscli
+
+pip install awsebcli
+
+aws configure --profile <Name>
+
+AWS Access Key
+
+AWS Secret
+
+None 
+
+None
+
+##### AWS Deployment
+
+Elastic Beanstalk - use N. Virginia (or other US) env for free deployment, otherwise will throw an error
+
+
+
+
 ### Heroku
 
 cd myapp
