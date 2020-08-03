@@ -4,7 +4,7 @@ from decouple import config
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 if "SECRET_KEY" in os.environ:
-    SECRET_KEY = os.environ.get("SECRET_KEY")
+    SECRET_KEY = config("SECRET_KEY")
 else:
     SECRET_KEY = "TestDjango"
 
