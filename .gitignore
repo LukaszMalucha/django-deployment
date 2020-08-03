@@ -5,3 +5,8 @@ __pycache__?
 venv/*
 .idea/*
 .env
+
+# Elastic Beanstalk Files
+zz/*
+!zz/*.cfg.yml
+!zz/*.global.yml

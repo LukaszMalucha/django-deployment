@@ -1,54 +1,5 @@
 ## DJANGO DEPLOYMENT
 
-### AWS
-
-##### Python
-
-pip install awscli
-
-pip install awsebcli
-
-aws configure --profile <Name>
-
-AWS Access Key
-
-AWS Secret
-
-None 
-
-None
-
-##### AWS Deployment
-
-Elastic Beanstalk - use N. Virginia (or other US) env for free deployment, otherwise will throw an error
-
-
-
-
-### Heroku
-
-cd myapp
-
-git init
-
-git add .
-
-git commit -m "My first commit"
-
-git push heroku master
-
-<br>
-
-heroku domains:add www.example.com
-
-heroku domains:wait 'www.example.com'
-
-<br>
-
-openssl genrsa -des3 -out server.pass.key 2048
-
-openssl rsa -in server.pass.key -out server.key
-
 
 ### Digital Ocean
 
