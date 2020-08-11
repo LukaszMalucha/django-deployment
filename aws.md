@@ -1,5 +1,3 @@
-## DJANGO DEPLOYMENT
-
 ### AWS
 
 ##### Python
