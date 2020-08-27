@@ -14,4 +14,8 @@ caprover serversetup
 
 Paste IP only
 
+http://64.225.116.106:3000
+
+http://mycaprover.numflights.com 
+
 
