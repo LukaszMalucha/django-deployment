@@ -1,7 +1,7 @@
 awscli==1.18.110
 awsebcli==3.18.2
 boto3==1.9.115
-Django==2.2
+Django==2.2.24
 django-storages==1.7.1
 gunicorn==19.9.0
 psycopg2-binary==2.8.4
